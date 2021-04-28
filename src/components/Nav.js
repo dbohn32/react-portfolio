@@ -7,13 +7,6 @@ function NavBar() {
             <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
               Home
           </Link>
-          
-            <Link
-              to="/about"
-              className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-            >
-              About
-          </Link>
           <Link
               to="/portfolio"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}

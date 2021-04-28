@@ -1,0 +1,19 @@
+img {
+    max-width: 320px;
+    max-height: 320px;
+}
+
+.h1 {
+    background-color: rgb(176, 176, 180);
+    min-height: 40pt;
+    font-size: 30pt;
+    text-align: left;
+}
+.h2 {
+    font-size: 30pt;
+}
+.container-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

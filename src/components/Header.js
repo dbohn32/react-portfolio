@@ -10,15 +10,13 @@ function Header(props) {
             <div className="col-sm-3">
               <div className="row">
                 <div className="col-sm-2 visible-md-* visible-lg-*"></div>
-                <div className="col-md-6 text-center text-Black h1">
+                <div className="h1">
                  Dan Bohn
-                </div>
-              </div>
-            </div>
-            <div className="col-sm-3 justify-content-end text-lg-right text-md-center">
             <NavBar></NavBar>
               </div>
           </div>
+        </div>
+        </div>
         </div>
       );
     }

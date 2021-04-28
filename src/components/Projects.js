@@ -1,22 +1,22 @@
 import React from "react"
 import ProjectCard from "./ProjectCard"
 
-
 function Projects () {
     return (
-        <div className= "container-fluid">
-            <div className="h2">Portfolio</div>
+        <div className= "container-fluid" >
+            <div className="h2"style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} >Portfolio</div>
             <div className= "row">
-
+               <br/>
+               <br/>
              <div className= "card-deck">
                  <ProjectCard
-                 imgSrc="/images/covidproject.png"
+                 imgSrc= "/images/covidproject.png"
                  altText="The Covid Project"
                  label="Covid Project"
                  gitHubURL="https://github.com/dbohn32/Covid-Project"
                ></ProjectCard>
                <ProjectCard
-                 imgSrc="/images/burger.jpg"
+                 imgSrc="/images/burger.png"
                  altText="Burger"
                  label="Burger"
                  gitHubURL="https://github.com/dbohn32/burger"
@@ -25,7 +25,7 @@ function Projects () {
                  imgSrc="/images/sufficientpurpose.png"
                  altText="Sufficient Purpose"
                  label="Sufficient Purpose"
-                 gitHubURL="https://github.dbohn32/Sufficient-Purpose-Project"
+                 gitHubURL="https://github.com/dbohn32/Sufficient-Purpose-Project"
                ></ProjectCard>
                <ProjectCard
                  imgSrc="/images/notetaker.png"

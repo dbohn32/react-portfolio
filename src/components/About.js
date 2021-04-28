@@ -3,9 +3,9 @@ import React from "react"
 function About(props) {
     return (
       <div className="col-md-8 offset-md-1">
-            <div className="h3">About Me</div>
+            <div className="h2" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>About Me</div>
           <div>
-            <div className="col-12 p-0 mb-2">
+            <div className="col-4 p-2 mb-4" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
               <img src="/images/profilepic.jpg" alt="Dan Bohn"/>
             </div>
           
